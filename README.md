@@ -1,7 +1,7 @@
 # Uppgift: The TypeScript Adventure
 
 **Scenario:**
-Du har fått i uppdrag att koda logiken till ett textbaserat äventyrsspel. Din hjälte ska vandra genom en mörk skog, samla utrustning, möta fiender och förhoppningsvis överleva till slutet.
+Vi ska koda logiken till ett textbaserat äventyrsspel. Din hjälte ska vandra genom en mörk skog, samla utrustning, möta fiender och förhoppningsvis överleva till slutet.
 
 **Mål:**
 Att knyta ihop hela veckan genom att använda **variabler**, **arrayer**, **loopar** och **villkorsstyrd logik** i ett och samma program.
