@@ -7,6 +7,9 @@ Vi ska koda logiken till ett textbaserat äventyrsspel. Din hjälte ska vandra g
 Att knyta ihop hela veckan genom att använda **variabler**, **arrayer**, **loopar** och **villkorsstyrd logik** i ett och samma program.
 
 ---
+**OBS!:**
+Detta spel kommer tyvärr vara statiskt, samma utgång varje gång beroende på era variabel värden. Förhoppningsvist så är temat lite roligt för veckans sammanfattning
+---
 
 ## Instruktioner
 
