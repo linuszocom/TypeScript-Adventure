@@ -1,0 +1,23 @@
+{
+  "name": "lexicon-typescript-adventure",
+  "version": "1.0.0",
+  "description": "**Scenario:** Vi ska koda logiken till ett textbaserat äventyrsspel. Din hjälte ska vandra genom en mörk skog, samla utrustning, möta fiender och förhoppningsvis överleva till slutet.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serfoll/lexicon-typescript-adventure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serfoll/lexicon-typescript-adventure/issues"
+  },
+  "homepage": "https://github.com/serfoll/lexicon-typescript-adventure#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
