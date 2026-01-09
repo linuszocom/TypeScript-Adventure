@@ -49,8 +49,8 @@ Nu börjar vandringen. Skogen är full av monster.
 
 Nu ska vi avgöra vad som händer när du möter varje fiende. **(Skrivs inuti loopen)**.
 
-- [ ] Logga först: `"Du möter en [enemy]!"`.
-- [ ] Använd `if / else if / else` för att hantera striderna:
+- [x] Logga först: `"Du möter en [enemy]!"`.
+- [x] Använd `if / else if / else` för att hantera striderna:
   - **Om fienden är "Slempropp":**
     - Den är svag. Du förlorar inget liv.
     - Logga: `"Du besegrade Slemproppen enkelt!"`.
@@ -68,8 +68,8 @@ Nu ska vi avgöra vad som händer när du möter varje fiende. **(Skrivs inuti l
 
 Loopen är slut. Hur gick det?
 
-- [ ] Skriv en kommentar: `// Steg 5: Resultat`.
-- [ ] Skriv en `if`-sats **utanför** loopen som kollar statusen:
+- [x] Skriv en kommentar: `// Steg 5: Resultat`.
+- [x] Skriv en `if`-sats **utanför** loopen som kollar statusen:
   - Om `isAlive` är `true`: Logga `"Grattis [heroName], du överlevde äventyret!"`.
   - Om `isAlive` är `false`: Logga `"Tyvärr [heroName], du dog i skogen..."`.
 - [ ] Logga slutligen din `inventory` för att se vad du fick med dig hem.
