@@ -16,7 +16,10 @@ console.log("Du snubblar och tappar det sista föremålet du plockade upp.");
 inventory.pop();
 console.log(`Din ryggsäck innehåller: ${inventory}`);
 
-// Steg 3: Äventyr
+// Steg 3: Enemies
+console.log("Nu börjar änventyret. Skogen är full av monster.");
+const enemies: string[] = ["Slempropp", "Varg", "Drake"];
+
 // Steg 4: Fiende
 // Steg 5: Resultat
 // Steg 6: Extra

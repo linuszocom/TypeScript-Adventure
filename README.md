@@ -40,9 +40,9 @@ Ingen hjälte går hemifrån utan utrustning.
 
 Nu börjar vandringen. Skogen är full av monster.
 
-- [ ] Skriv en kommentar: `// Steg 3: Äventyret`.
-- [ ] Skapa en array som heter `enemies` som innehåller tre strängar: `"Slempropp"`, `"Varg"`, `"Drake"`.
-- [ ] Skapa en **`for...of`**-loop som går igenom varje `enemy` i listan `enemies`.
+- [x] Skriv en kommentar: `// Steg 3: Äventyret`.
+- [x] Skapa en array som heter `enemies` som innehåller tre strängar: `"Slempropp"`, `"Varg"`, `"Drake"`.
+- [x] Skapa en **`for...of`**-loop som går igenom varje `enemy` i listan `enemies`.
   - _OBS: All kod i Steg 4 ska skrivas INUTI denna loop._
 
 ### Steg 4: Stridssystemet (Villkor & Logik)
