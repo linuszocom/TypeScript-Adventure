@@ -72,7 +72,7 @@ Loopen är slut. Hur gick det?
 - [x] Skriv en `if`-sats **utanför** loopen som kollar statusen:
   - Om `isAlive` är `true`: Logga `"Grattis [heroName], du överlevde äventyret!"`.
   - Om `isAlive` är `false`: Logga `"Tyvärr [heroName], du dog i skogen..."`.
-- [ ] Logga slutligen din `inventory` för att se vad du fick med dig hem.
+- [x] Logga slutligen din `inventory` för att se vad du fick med dig hem.
 
 ---
 

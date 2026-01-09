@@ -1,21 +1,28 @@
 // Steg 1: Hjälten
 const heroName: string = "Himothy";
-let hp: number = 100;
+let hp: number = 10;
 let isAlive: boolean = true;
 
 console.log(`Välkommen ${heroName}! Du börjar md ${hp} HP.`);
 
 // Steg 2: Inventory
-const inventory: string[] = [];
+const inventory: string[] = ["Svärd"];
 const inventoryMsg: string = `Din ryggsäck innehåller:`;
 
-console.log("Du hittar en kista med svärd och sköld");
-inventory.push("Svärd", "Sköld");
+let fallen: boolean = false;
+let foundLoot: boolean = false;
+
+if (foundLoot) {
+  console.log("Du hittar sköld");
+  inventory.push("Sköld");
+}
+
 console.log(inventoryMsg, inventory.toString());
 
-console.log("Du snubblar och tappar det sista föremålet du plockade upp.");
-inventory.pop();
-console.log(inventoryMsg, inventory.toString());
+if (fallen) {
+  console.log("Du snubblar och tappar det sista föremålet i ditt inventory.");
+  inventory.pop();
+}
 
 // Steg 3: Enemies
 console.log("Nu börjar änventyret. Skogen är full av monster.");
@@ -33,12 +40,18 @@ for (const enemy of enemies) {
   } else if (enemy === "Varg") {
     console.log("Vargen är tuff!");
     hp -= 20;
+
+    if (hp < 0) {
+      hp = 0;
+    }
+
     console.log(`Vargen bet dig! Du har ${hp} HP kvar.`);
   } else if (enemy === "Drake") {
-    if (hp >= 50 && isAlive) {
+    if (hp >= 50 && isAlive && inventory.includes("Svärd")) {
       console.log(`Du besegrade draken och vann spelet!`);
     } else {
       console.log(`Draken sprutade eld. Game Over!`);
+      isAlive = false;
     }
   }
 } // for end
@@ -49,6 +62,9 @@ if (isAlive) {
 } else {
   console.log(`Tyvärr ${heroName}, du dog i skogen...`);
 }
-console.log(inventoryMsg, inventory.toString());
 
-// Steg 6: Extras
+if (inventory.length === 0) {
+  console.log(inventoryMsg, "inget");
+} else {
+  console.log(inventoryMsg, inventory.toString());
+}
