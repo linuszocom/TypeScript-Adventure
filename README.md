@@ -30,11 +30,11 @@ Vi behöver en karaktär innan vi kan börja äventyret.
 
 Ingen hjälte går hemifrån utan utrustning.
 
-- [ ] Skriv en kommentar: `// Steg 2: Inventory`.
-- [ ] Skapa en tom array som heter `inventory` (datatyp: `string[]`).
-- [ ] **Loota:** Du hittar en kista! Lägg till strängarna `"Svärd"` och `"Sköld"` i din array med `.push()`.
-- [ ] **Olycka:** Du snubblar och tappar det sista föremålet du plockade upp. Använd `.pop()` för att ta bort det sista föremålet ur listan.
-- [ ] **Kolla läget:** Logga din ryggsäck: `"Din ryggsäck innehåller: [inventory]"`.
+- [x] Skriv en kommentar: `// Steg 2: Inventory`.
+- [x] Skapa en tom array som heter `inventory` (datatyp: `string[]`).
+- [x] **Loota:** Du hittar en kista! Lägg till strängarna `"Svärd"` och `"Sköld"` i din array med `.push()`.
+- [x] **Olycka:** Du snubblar och tappar det sista föremålet du plockade upp. Använd `.pop()` för att ta bort det sista föremålet ur listan.
+- [x] **Kolla läget:** Logga din ryggsäck: `"Din ryggsäck innehåller: [inventory]"`.
 
 ### Steg 3: Fienderna (Loopar)
 

@@ -6,6 +6,16 @@ let isAlive: boolean = true;
 console.log(`Välkommen ${heroName}! Du börjar md ${hp} HP.`);
 
 // Steg 2: Inventory
+const inventory: string[] = [];
+
+console.log("Du hittar en kista med svärd och sköld");
+inventory.push("Svärd", "Sköld");
+console.log(`Din ryggsäck innehåller: ${inventory}`);
+
+console.log("Du snubblar och tappar det sista föremålet du plockade upp.");
+inventory.pop();
+console.log(`Din ryggsäck innehåller: ${inventory}`);
+
 // Steg 3: Äventyr
 // Steg 4: Fiende
 // Steg 5: Resultat
